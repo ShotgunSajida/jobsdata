@@ -41,7 +41,5 @@ def tweets_df(results):
     return data_set
 data_set = tweets_df(results)
 
-data_set
-
 data_set.to_csv("tweets_merged_data.csv")
 

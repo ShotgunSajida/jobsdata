@@ -6,10 +6,7 @@ from time import sleep
 from random import randint
 from scipy.misc import imread
 
-CONSUMER_KEY = 'q6kY8CYvNYsYpzKsXEHfOo5jL'
-CONSUMER_SECRET = 'uA7ZjgChy0hjKK9iCtzg8PFHsXgYz881CoeDfr6rMAN7mylA8d'
-OAUTH_TOKEN = '1090760041211351040-L4iJwGwjABIuI324MXRVrPkXndtckC'
-OAUTH_TOKEN_SECRET = '7ArAW2ZpVuM4msvNKT4ZrYpaSKZa8Wj8YMgquA8cqBZMe'
+
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET) #Interacting with twitter's API
 auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
